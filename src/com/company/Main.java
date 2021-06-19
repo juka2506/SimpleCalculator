@@ -16,10 +16,14 @@ public class Main {
         //Mathematical operator
         String operator = "-";
 
-        if(operator.equals("+")) {
+        if (operator.equals("+")) {
             answer = firstNumber + secondNumber;
         } else if (operator.equals("-")) {
             answer = firstNumber - secondNumber;
+        } else if (operator.equals("*")) {
+            answer = firstNumber * secondNumber;
+        } else if (operator.equals("/")) {
+            answer = firstNumber / secondNumber;
         }
 
         System.out.println(answer);
